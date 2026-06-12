@@ -1,4 +1,4 @@
-# 🥗 MacroTrack
+# MacroTrack
 
 A comprehensive nutrition tracking application that helps you monitor your daily macronutrient intake, calories, and food consumption. Track your fitness goals effortlessly with real-time progress visualization.
 
@@ -29,7 +29,7 @@ A comprehensive nutrition tracking application that helps you monitor your daily
 
 ---
 
-## ✨ Features
+## Features
 
 - **User Authentication**: Secure sign-up and login system with encrypted passwords
 - **Daily Macro Tracking**: Monitor your protein, carbohydrates, and fats intake
@@ -43,7 +43,7 @@ A comprehensive nutrition tracking application that helps you monitor your daily
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 - **Runtime**: Node.js
@@ -61,7 +61,7 @@ A comprehensive nutrition tracking application that helps you monitor your daily
 
 ---
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 ### **High-Level Architecture Diagram**
 
@@ -169,7 +169,7 @@ A comprehensive nutrition tracking application that helps you monitor your daily
 
 ---
 
-## 🔄 System Flow & Workflow
+## System Flow & Workflow
 
 ### **User Authentication Flow**
 
@@ -320,7 +320,7 @@ END
 
 ---
 
-## 💡 How It Works
+## How It Works
 
 ### **Registration Process**
 1. User fills signup form with personal details
@@ -365,7 +365,7 @@ END
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MacroTrack/
@@ -394,7 +394,7 @@ MacroTrack/
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
@@ -405,7 +405,7 @@ Make sure you have the following installed:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Step 1: Clone the Repository
 
@@ -426,7 +426,7 @@ This will install all required packages listed in `package.json`.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Step 1: Create Environment Variables
 
@@ -464,7 +464,7 @@ CREATE DATABASE macrotrack;
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 ### Development Mode (with auto-reload)
 
@@ -492,7 +492,7 @@ You should see the MacroTrack landing page.
 
 ---
 
-## 💡 Usage
+## Usage
 
 ### Creating an Account
 
@@ -525,7 +525,7 @@ You should see the MacroTrack landing page.
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication Routes (`/auth`)
 
@@ -548,7 +548,7 @@ You should see the MacroTrack landing page.
 
 ---
 
-## 📝 Database Schema
+## Database Schema
 
 The application automatically creates the following tables:
 
@@ -572,7 +572,7 @@ The application automatically creates the following tables:
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
 - **Password Hashing**: Passwords are hashed using bcrypt before storage
 - **Session Management**: HTTP-only cookies prevent XSS attacks
@@ -582,7 +582,7 @@ The application automatically creates the following tables:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Error: "Can't connect to MySQL server"
 - Ensure MySQL is running
@@ -604,7 +604,7 @@ The application automatically creates the following tables:
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Express.js Documentation](https://expressjs.com/)
 - [MySQL Documentation](https://dev.mysql.com/doc/)
@@ -613,7 +613,7 @@ The application automatically creates the following tables:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 
@@ -635,7 +635,7 @@ Contributions are welcome! To contribute:
 
 ---
 
-## ❓ Support
+## Support
 
 If you have any questions or encounter issues, please:
 
@@ -645,6 +645,6 @@ If you have any questions or encounter issues, please:
 
 ---
 
-**Happy Tracking! 🎯**
+**Happy Tracking!**
 
 Keep your nutrition goals on track with MacroTrack!
