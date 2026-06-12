@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacroTrack - Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a class="logo" href="./dashboard.html">MacroTrack</a>
+        <nav class="nav-links" aria-label="Private navigation">
+            <a href="./dashboard.html" aria-current="page">Dashboard</a>
+            <a href="./profile.html">Profile</a>
+            <a href="./contact.html">Contact</a>
+            <button class="link-button" type="button" onclick="logout()">Logout</button>
+        </nav>
+    </header>
+
+    <main class="page-shell">
+        <section class="section-heading compact">
+            <p class="eyebrow">Private dashboard</p>
+            <h1>My Macro Dashboard</h1>
+            <p>Log today&apos;s macros and compare them with your saved goals.</p>
+        </section>
+
+        <section class="dashboard-layout">
+            <article class="tool-panel">
+                <h2>Set Goals</h2>
+                <form id="goalForm" class="stacked-form">
+                    <label for="calories_goal">Calories Goal</label>
+                    <input type="number" id="calories_goal" placeholder="Daily calories" required>
+
+                    <label for="protein_goal">Protein Goal</label>
+                    <input type="number" id="protein_goal" placeholder="Daily protein in grams" required>
+
+                    <label for="carbs_goal">Carbs Goal</label>
+                    <input type="number" id="carbs_goal" placeholder="Daily carbs in grams" required>
+
+                    <label for="fats_goal">Fats Goal</label>
+                    <input type="number" id="fats_goal" placeholder="Daily fats in grams" required>
+
+                    <button type="submit">Save Goals</button>
+                </form>
+            </article>
+
+            <article class="tool-panel">
+                <h2>Add Food</h2>
+                <form id="foodForm" class="stacked-form">
+                    <label for="calories">Calories</label>
+                    <input type="number" id="calories" placeholder="Calories" required>
+
+                    <label for="protein">Protein</label>
+                    <input type="number" id="protein" placeholder="Protein in grams" required>
+
+                    <label for="carbs">Carbs</label>
+                    <input type="number" id="carbs" placeholder="Carbs in grams" required>
+
+                    <label for="fats">Fats</label>
+                    <input type="number" id="fats" placeholder="Fats in grams" required>
+
+                    <button type="submit">Add Food</button>
+                </form>
+
+                <button class="danger-button" type="button" onclick="deleteTodayFood()">Delete Today&apos;s Food</button>
+            </article>
+
+            <article class="tool-panel">
+                <h2>Today&apos;s Progress</h2>
+                <div id="dashboard" class="progress-list">Loading...</div>
+            </article>
+        </section>
+    </main>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacroTrack - Profile</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a class="logo" href="./dashboard.html">MacroTrack</a>
+        <nav class="nav-links" aria-label="Private navigation">
+            <a href="./dashboard.html">Dashboard</a>
+            <a href="./profile.html" aria-current="page">Profile</a>
+            <a href="./contact.html">Contact</a>
+            <button class="link-button" type="button" onclick="logout()">Logout</button>
+        </nav>
+    </header>
+
+    <main class="page-shell">
+        <section class="section-heading compact">
+            <p class="eyebrow">Account</p>
+            <h1>User Profile</h1>
+            <p>Your saved MacroTrack account details.</p>
+        </section>
+
+        <section class="tool-panel profile-panel">
+            <div id="profileData">Loading...</div>
+        </section>
+    </main>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/profile.js"></script>
+</body>
+</html>
